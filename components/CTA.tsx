@@ -8,9 +8,13 @@ export function CTA() {
         <p className="mx-auto mt-4 max-w-2xl text-sm text-gray-300 sm:text-base">
           Adopt AAR to standardize verification, reduce integration risk, and unlock interoperable agent commerce.
         </p>
-        <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
+        <div className="mt-6 flex flex-wrap justify-center gap-3">
+          <code className="inline-flex h-11 items-center rounded-lg border border-cyanAccent/40 bg-black/60 px-4 text-sm text-cyanAccent">npm install botindex-aar</code>
+          <code className="inline-flex h-11 items-center rounded-lg border border-magentaAccent/40 bg-black/60 px-4 text-sm text-magentaAccent">pip install botindex-aar</code>
+        </div>
+        <div className="mt-4 flex flex-col justify-center gap-3 sm:flex-row">
           <Link
-            href="https://github.com/botindex/aar"
+            href="https://github.com/Cyberweasel777/agent-action-receipt-spec"
             target="_blank"
             rel="noreferrer"
             className="inline-flex h-11 items-center justify-center rounded-lg border border-cyanAccent/60 bg-cyanAccent/15 px-5 text-sm font-medium text-cyanAccent transition hover:bg-cyanAccent/25"
@@ -18,10 +22,12 @@ export function CTA() {
             Read the Spec
           </Link>
           <Link
-            href="#integration"
+            href="https://botindex.dev"
+            target="_blank"
+            rel="noreferrer"
             className="inline-flex h-11 items-center justify-center rounded-lg border border-magentaAccent/60 bg-magentaAccent/15 px-5 text-sm font-medium text-magentaAccent transition hover:bg-magentaAccent/25"
           >
-            Explore Integration
+            Try BotIndex API →
           </Link>
         </div>
       </div>
