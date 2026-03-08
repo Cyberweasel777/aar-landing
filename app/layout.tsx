@@ -32,6 +32,14 @@ export default function RootLayout({
           {children}
         </ThemeProvider>
         <Analytics />
+        {/* Landing page beacon — tracks pageviews via king-backend hit counter */}
+        <img
+          src="https://king-backend.fly.dev/api/botindex/beacon?page=aar.botindex.dev"
+          alt=""
+          width={1}
+          height={1}
+          style={{ position: 'absolute', opacity: 0 }}
+        />
       </body>
     </html>
   );
