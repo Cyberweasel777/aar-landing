@@ -39,7 +39,7 @@ export function Hero() {
         </p>
         <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
           <Link
-            href="https://github.com/botindex/aar"
+            href="https://github.com/Cyberweasel777/agent-action-receipt-spec"
             target="_blank"
             rel="noreferrer"
             className="inline-flex h-11 items-center justify-center rounded-lg border border-cyanAccent/60 bg-cyanAccent/15 px-5 text-sm font-medium text-cyanAccent transition hover:bg-cyanAccent/25"
